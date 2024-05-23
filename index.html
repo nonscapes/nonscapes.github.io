@@ -1,8 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>non-desirable spaces</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
-<h1>Non-desirable Scapes</h1>
-<h2>scapes that will be and those we don't desire</h2>
-<p>We can't wait to share our latest webpage with you!</p>
+    <header>
+        <h1>non-desirable spaces</h1>
+        <h2>scapes that will be and those we do not desire</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#ideas">Ideas</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="ideas">
+            <div id="image-container"></div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are "non-desirable spaces", an architecture studio focusing on landscape projects and research...</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:paz@nonscapes.com">paz@nonscapes.com</a></p>
+            <p>Phone: +123 456 7890</p>
+            <p>Location: Morningside Heights, NYC</p>
+            <form action="mailto:paz@nonscapes.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
