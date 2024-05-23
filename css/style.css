@@ -58,7 +58,7 @@ main {
 
 #image-container img {
     position: absolute;
-    max-width: 150px;
+    max-width: 300px;
     margin: 10px;
     transition: transform 0.5s, opacity 0.5s;
 }
