@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Non-desirable Scapes</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="blur-background"></div>
+        <h1 class="main-title">Non-desirable Scapes</h1>
+        <nav>
+            <a href="index.html" class="gadget">Home</a>
+            <a href="ideas.html" class="gadget">Ideas</a>
+            <a href="about.html" class="gadget">About Us</a>
+            <a href="contact.html" class="gadget">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-section">
+            <h2>Contact Us</h2>
+            <form id="contact-form" action="submit_contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Paz Yolín and Patricio Muñoz<br>
+           Cell: +1 (646) 526-6449<br>
+           Email: <a href="mailto:paz@nonscapes.com">paz@nonscapes.com</a>
+        </p>
+    </footer>
+</body>
+</html>
