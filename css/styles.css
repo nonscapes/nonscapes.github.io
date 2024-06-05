@@ -183,7 +183,7 @@ footer {
 #ideas {
     display: flex;
     flex-direction: column;
-    margin: 0 100px;
+    margin: 0px;
 }
 
 .main-subtitle {
@@ -197,15 +197,14 @@ footer {
 .idea-block {
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .idea-title {
-    font-size: 24pt;
+    font-size: 20pt;
     color: #7941F2;
     text-align: right;
-    margin: 30px 100px;
-    background-color: #f1e1ff;
+    margin: 0px 00px;
     padding: 20px;
 }
 
@@ -216,11 +215,11 @@ footer {
 
 .description {
     width: calc(50% - 30px);
-    font-size: 18pt;
+    font-size: 14pt;
     color: #381B89;
     margin-left: 100px;
-    text-align: right;
-    margin-top: -30px;
+    text-align: center
+    margin-top: 0
 }
 
 .images {
@@ -269,7 +268,6 @@ hr {
     color: #7941F2;
     text-align: right;
     margin: 30px 100px;
-    background-color: #f1e1ff;
     padding: 20px;
 }
 
@@ -358,7 +356,6 @@ hr {
 #contact-form button {
     width: 100%;
     padding: 15px;
-    background-color: #cfc4ec;
     color: white;
     border: none;
     border-radius: 5px;
